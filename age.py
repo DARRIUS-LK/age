@@ -1,6 +1,8 @@
 a = input('have you drive before? (yes/no): ')
+if a != 'yes' and 'no':
+	print('please enter yes or no only')
+	raise SystemExit
 b = input('please enter your age: ')
-
 def is_number(b):
 		try: 
 			int(b)
